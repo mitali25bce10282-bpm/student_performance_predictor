@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #  Student Performance Predictor
 
 ## Overview
@@ -112,6 +111,3 @@ Predicted Marks: ~70
 ## Author
 
 Mitali Pandey
-=======
-# student-performance-predictor
->>>>>>> 0f7834b477ef7699cca443155634c05699d8fbb4

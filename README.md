@@ -1,33 +1,28 @@
-#  Student Performance Predictor
+# Student Performance Predictor
 
 ## Overview
 
-This project is a machine learning-based web application that predicts student marks based on study hours, sleep hours, and attendance percentage.
+The **Student Performance Predictor** is a machine learning-based web application that predicts a student’s academic performance based on various input factors such as study hours, attendance, and other relevant parameters.
 
-It uses a Linear Regression model and a Streamlit interface to provide an easy-to-use prediction system.
-
----
-
-##  Problem Statement
-
-Students often want to estimate their academic performance based on their study habits and attendance. However, there is no simple way to predict expected marks.
+This project helps in understanding how different factors influence student outcomes and provides insights for improvement.
 
 ---
 
-## Solution
+## Problem Statement
 
-This project builds a predictive model using historical student data.
-The user inputs:
-
-* Study Hours
-* Sleep Hours
-* Attendance
-
-The model then predicts the expected marks.
+Students often struggle to understand how different habits and factors impact their academic performance. There is a lack of simple tools that can help predict outcomes based on these factors.
 
 ---
 
-## Technologies Used
+## Objectives
+
+* To build a machine learning model that predicts student performance
+* To create a user-friendly interface for easy interaction
+* To analyze the impact of various factors on student results
+
+---
+
+## Tech Stack
 
 * Python
 * Pandas
@@ -36,81 +31,68 @@ The model then predicts the expected marks.
 
 ---
 
-## How It Works
+## Methodology
 
-1. The dataset is loaded from a CSV file
-2. Features (study hours, sleep, attendance) are selected
-3. A Linear Regression model is trained
-4. The user enters input values through a web interface
-5. The model predicts the marks
+* Collected and used dataset related to student performance
+* Preprocessed the data using Pandas
+* Trained a machine learning model (e.g., Linear Regression)
+* Built a Streamlit web app for user interaction
 
 ---
 
 ## How to Run the Project
 
-### 1. Install dependencies
-
 ```bash
+git clone https://github.com/mitali25bce10282-bpm/student_performance_predictor.git
+cd student_performance_predictor
 pip install -r requirements.txt
-```
-
-### 2. Run the application
-
-```bash
 streamlit run app.py
 ```
 
 ---
 
-## Sample Input
-
-* Study Hours: 6
-* Sleep Hours: 7
-* Attendance: 80
-
-### Output
-
-Predicted Marks: ~70
-
----
-
 ## Screenshots
 
-![Input Screen](screenshots/input.png)
-![Output Screen](screenshots/output1.png)
-![Output Screen](screenshots/output2.png)
-![Output Screen](screenshots/output3.png)
-![Output Screen](screenshots/output4.png)
+### 🎯 Input Interface
+
+![Input](screenshots/input.png)
+
+### Prediction Results
+
+![Output](screenshots/output1.png)
+
+![Output](screenshots/output2.png)
+
+![Output](screenshots/output3.png)
+
+![Output](screenshots/output4.png)
 
 ---
 
 ## Challenges Faced
 
-* Understanding how machine learning models work
-* Handling user input
-* Converting the project into a web application
-
----
-
-## Learning Outcomes
-
-* Learned about supervised learning and linear regression
-* Understood how to train and use ML models
-* Built a real-world application using Streamlit
+* Handling model accuracy issues
+* Debugging Streamlit UI errors
+* Managing GitHub and version control
 
 ---
 
 ## Future Improvements
 
-* Use a larger and more realistic dataset
-* Add more features (like previous marks, assignments)
-* Improve UI design
+* Improve model accuracy with advanced algorithms
+* Add more input features
+* Deploy the project online
+
+---
+
+## What I Learned
+
+* Practical implementation of machine learning
+* Building interactive web apps using Streamlit
+* Using GitHub for version control and project management
 
 ---
 
 ## Author
 
-Mitali Pandey
-Project updated
-
-
+**Mitali Pandey**
